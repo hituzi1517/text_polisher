@@ -1,12 +1,16 @@
 # 文章整形ツール
 
-GitHub Pages 用の最小構成です。
+GitHub Pages向けの文章整形Webアプリです。
 
-## 公開手順
-1. このフォルダ内の `index.html` と `.nojekyll` をリポジトリ直下へアップロード
-2. GitHub の Settings → Pages
-3. Source を `Deploy from a branch`
-4. Branch を `main`、Folder を `/(root)` にして Save
-5. 数分後、Pages のURLから開く
+## 小説整形
+- 地の文を全角1字下げ
+- 「」『』などで始まる会話文は字下げしない
+- 連続空行を1行に整理
+- 三点リーダーを「……」へ統一
+- ダッシュを「――」へ統一
+- 行末の余計な空白を削除
+- 任意で段落間に空行を1行入れてWeb小説風に変換
 
-`index.html` だけでも通常は動作します。
+## GitHub Pages
+`index.html` と `.nojekyll` をリポジトリ直下へ置き、
+Settings → Pages → Deploy from a branch → main / (root) を選択してください。
